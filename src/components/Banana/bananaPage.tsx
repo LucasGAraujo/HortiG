@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import FakeSupportChat from './SupportChat/fakeSupportChat';
 
-import './BananaPage.css';
+import './bananaPage.css';
 
 const BananaPage = () => {
     const [clicked, setClicked] =

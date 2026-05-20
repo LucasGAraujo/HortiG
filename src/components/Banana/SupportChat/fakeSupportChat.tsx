@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import './FakeSupportChat.css';
+import './fakeSupportChat.css';
 
 const FakeSupportChat = () => {
     useEffect(() => {
