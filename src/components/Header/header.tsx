@@ -1,3 +1,4 @@
+// arquivo renomeado para Header.tsx
 import { Menu, Search } from 'lucide-react';
 import './Header.css';
 import logo from '../../assets/hortifrutig.png';
