@@ -1,0 +1,148 @@
+.tangerina-page {
+    min-height: 100vh;
+}
+
+.hero {
+    width: 100%;
+    min-height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 60px;
+
+    background: linear-gradient(135deg, #ff9f1c, #ffbf69);
+}
+
+.hero__content {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero__badge {
+    width: fit-content;
+
+    padding: 8px 16px;
+
+    border-radius: 999px;
+
+    background: rgba(255, 255, 255, 0.2);
+
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hero__title {
+    font-size: 72px;
+    color: white;
+    font-weight: bold;
+}
+
+.hero__description {
+    max-width: 500px;
+
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.hero__button {
+    width: fit-content;
+
+    padding: 14px 28px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: white;
+
+    color: #ff7b00;
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s ease;
+}
+
+.hero__button:hover {
+    transform: translateY(-2px);
+}
+
+.hero__image {
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.hero__image img {
+    width: 100%;
+    max-width: 500px;
+
+    border-radius: 24px;
+
+    object-fit: cover;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.benefits {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+    padding: 60px;
+}
+
+.benefit-card {
+    padding: 32px;
+
+    border-radius: 20px;
+
+    background: white;
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.benefit-card h2 {
+    margin-bottom: 16px;
+
+    color: #ff7b00;
+}
+
+.benefit-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+    .hero {
+        flex-direction: column;
+        gap: 40px;
+
+        padding: 40px 24px;
+    }
+
+    .hero__content,
+    .hero__image {
+        width: 100%;
+    }
+
+    .hero__title {
+        font-size: 48px;
+    }
+
+    .benefits {
+        grid-template-columns: 1fr;
+        padding: 40px 24px;
+    }
+}
