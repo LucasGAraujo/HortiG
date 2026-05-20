@@ -36,7 +36,7 @@ const fakeChatSDK = () => {
 
     while (
         performance.now() - start <
-        6000
+        5000
     ) {
         
     }
