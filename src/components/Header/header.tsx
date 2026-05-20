@@ -1,5 +1,5 @@
 import { Menu, Search } from 'lucide-react';
-import './Header.css';
+import './header.css';
 import logo from '../../assets/hortifrutig.png';
 
 const Header = () => {

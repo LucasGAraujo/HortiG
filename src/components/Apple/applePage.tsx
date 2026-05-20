@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './ApplePage.css';
+import './applePage.css';
 
 const appleVarieties = [
     'Fuji',
