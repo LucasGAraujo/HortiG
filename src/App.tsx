@@ -1,8 +1,8 @@
 
 import './App.css'
 // import BananaPage from './components/Banana/bananaPage';
-import ApplePage from './components/Apple/ApplePage'
-import Header from './components/Header/Header'
+import ApplePage from './components/Apple/applePage'
+import Header from './components/Header/header'
 // import TangerinaPage from './components/Tangerina/tangerinaPage';
 function App() {
 
