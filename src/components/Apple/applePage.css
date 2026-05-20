@@ -1,0 +1,185 @@
+/* SEARCH BUTTON */
+.apple-header button {
+    height: 52px;
+    padding: 0 28px;
+    margin-left: 12px;
+    border: none;
+    border-radius: 12px;
+    background: #b71c1c;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(183,28,28,0.08);
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+.apple-header button:hover {
+    background: #a31515;
+    box-shadow: 0 4px 16px rgba(183,28,28,0.16);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #f4f4f4;
+}
+
+.apple-page {
+    width: 100%;
+    min-height: 100vh;
+
+    padding: 32px;
+}
+
+/**
+ * HEADER
+ */
+
+.apple-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.apple-header__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.apple-header__search {
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.apple-header h1 {
+    font-size: 42px;
+    color: #b71c1c;
+}
+
+.apple-header p {
+    margin-top: 8px;
+
+    color: #666;
+}
+
+.apple-header input {
+    width: 320px;
+    height: 52px;
+    padding: 0 16px;
+    border-radius: 12px 0 0 12px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    border-right: none;
+}
+
+.apple-header button {
+    border-radius: 0 12px 12px 0;
+}
+
+/**
+ * GRID
+ */
+
+.apple-grid {
+    display: grid;
+
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(260px, 1fr)
+    );
+
+    gap: 24px;
+}
+
+/**
+ * CARD
+ *
+ * IMPORTANT:
+ * NÃO usar content-visibility aqui
+ * para simular renderização pesada
+ */
+
+.apple-card {
+    background: white;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+
+    transition: 0.2s;
+}
+
+.apple-card:hover {
+    transform: translateY(-4px);
+}
+
+.apple-card img {
+    width: 100%;
+    height: 240px;
+
+    object-fit: cover;
+}
+
+.apple-card__content {
+    padding: 20px;
+}
+
+.apple-card h2 {
+    font-size: 22px;
+
+    color: #b71c1c;
+
+    margin-bottom: 12px;
+}
+
+.apple-card span {
+    display: block;
+
+    margin-bottom: 20px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    color: #2e7d32;
+}
+
+.apple-card button {
+    width: 100%;
+    height: 48px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: #c62828;
+
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.apple-card button:hover {
+    background: #a31515;
+}
+/* .apple-card {
+    content-visibility: auto;
+
+    contain-intrinsic-size: 500px;
+} */
