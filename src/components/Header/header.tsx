@@ -1,4 +1,3 @@
-// arquivo renomeado para Header.tsx
 import { Menu, Search } from 'lucide-react';
 import './Header.css';
 import logo from '../../assets/hortifrutig.png';
@@ -16,6 +15,7 @@ const Header = () => {
           <img src={logo} alt="HortiFrutiG Logo" />
         </div>
       </div>
+
 
       <h1 className="header__title">HortiFrutiG</h1>
 

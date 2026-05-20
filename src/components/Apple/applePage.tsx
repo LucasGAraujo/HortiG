@@ -14,6 +14,7 @@ const appleVarieties = [
     'Jazz',
     'Ambrosia',
     'Empire',
+    'Fuji',
     'Jonagold',
     'Cortland',
     'Envy',
